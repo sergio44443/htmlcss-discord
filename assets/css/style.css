@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+a{
+  text-align: justify;
+  flex-direction: row;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+header nav ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.container{
+
+}
+
+header .navbar .row{
+  background-color: aliceblue;
+  width: 900px;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .container{
+  background-color: blue;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  max-height: 100px;
+}
+
+header nav ul a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  background-color: brown;
+
+  padding: 5px 10px;
+}
+
+header nav ul a:hover{
+  background-color: rgb(186, 95, 95);
+}
+
+
+
+
+.prima-parte{
+  background-color: blue;
+}
+
+.box2-prima-parte{
+  height: 200px;
+  width: calc(100% - 350px);
+}
+
+.jumbo{
+  background-color: blueviolet;
+  justify-content: center;
+
+  height: 200px;
+
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+}
+
+.jumbotron{
+
+  width: calc(100% - 350px);
+  background-color: chocolate;
+}
+
+.box-prima-prima{
+  display: flex;
+  justify-content: center;
+}
+
+.box2-prima-parte{
+  height: 200px;
+  width: calc(100% - 350px);
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.culo{
+  width: 30%;
+  background-color: aquamarine;
+}
+
+.culo2{
+  width: 70%;
+  background-color: antiquewhite;
+}
