@@ -27,9 +27,7 @@ header nav ul{
   align-items: center;
 }
 
-.container{
 
-}
 
 header .navbar .row{
   background-color: aliceblue;
@@ -71,11 +69,22 @@ header nav ul a:hover{
   width: calc(100% - 350px);
 }
 
+.box2-seconda-parte{
+  height: 200px;
+  width: calc(100% - 350px);
+}
+
 .jumbo{
   background-color: blueviolet;
   justify-content: center;
 
   height: 200px;
+
+}
+
+.secondo{
+  background-color: blueviolet;
+
 
 }
 
@@ -88,6 +97,7 @@ header nav ul a:hover{
 
   width: calc(100% - 350px);
   background-color: chocolate;
+  
 }
 
 .box-prima-prima{
@@ -96,6 +106,18 @@ header nav ul a:hover{
 }
 
 .box2-prima-parte{
+  height: 200px;
+  width: calc(100% - 350px);
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.box-seconda-parte{
+  display: flex;
+  justify-content: center;
+}
+
+.box2-seconda-parte{
   height: 200px;
   width: calc(100% - 350px);
   margin-bottom: 100px;
@@ -111,3 +133,46 @@ header nav ul a:hover{
   width: 70%;
   background-color: antiquewhite;
 }
+
+.culo3{
+  width: 70%;
+  background-color: black;
+}
+
+.culo4{
+  width: 30%;
+  background-color: antiquewhite;
+}
+
+.terza-parte{
+  background-color: aqua;
+}
+
+.box-terza-parte{
+  width: calc(100% - 350px);
+  background-color: chocolate;
+  height: 600px;
+  width: calc(100% - 350px);
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+
+.container3{
+  background-color: cadetblue;
+  margin: 0 auto 15px auto;
+  height: 300px;
+  width: calc(100% - 350px);
+  border: 2px solid black
+}
+
+.c-2{
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box11{
+  width: 30%;
+}
+
+
